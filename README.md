@@ -2,7 +2,7 @@
 
 > a realtime weather tracking app
 
-# Deployed Version
+## Deployed Version
 https://geoweather.netlify.com/#/
 
 ## Build Setup
@@ -21,4 +21,5 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Screen Shot
+<img width="1440" alt="Screenshot 2019-10-09 at 10 22 23 PM" src="https://user-images.githubusercontent.com/14821816/66521751-b6fcb000-eae3-11e9-8898-36533c731431.png">
