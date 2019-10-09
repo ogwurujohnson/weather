@@ -29,7 +29,7 @@ export default {
   data () {
     return {
       gettingLocation: false,
-      iconUrl: 'http://openweathermap.org/img/wn/10d@2x.png',
+      iconUrl: 'https://openweathermap.org/img/wn/10d@2x.png',
       fetchingWeather: false,
       errorStr: '',
       temp: '00',
@@ -51,7 +51,7 @@ export default {
       const icon = message.data.weather[0].icon
       tempKelvin = message.data.main.temp
       tempDescription = message.data.weather[0].main
-      iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`
+      iconUrl = `https://openweathermap.org/img/wn/${icon}@2x.png`
       console.log(message.data)
     })
     this.fetchData()
@@ -92,7 +92,7 @@ export default {
           const tempDescription = res.data.weather[0].main
           const tempKelvin = res.data.main.temp
           this.fetchingWeather = false
-          this.iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`
+          this.iconUrl = `https://openweathermap.org/img/wn/${icon}@2x.png`
           this.temp = tempKelvin - 273.15
           this.temp_description = tempDescription
           this.location = `${city}, ${country}`
